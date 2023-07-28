@@ -1,0 +1,41 @@
+body {
+    background-color: #171717;
+    font-family: 'Dosis', sans-serif;
+}
+h1 {
+    color:#fff;
+}
+
+.btn-login {
+    border-color: #FFF !important;
+    color: #FFF;
+    box-shadow: none !important;
+}
+.btn-login:hover {
+    background-color: #FFF !important;
+    color: black !important;
+    font-weight: bolder;
+}
+.login-form {
+    background-color: black;
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+input {
+    border-color: #fff !important;
+}
+input:focus {
+    box-shadow: none !important;
+    border-color: #fff !important;
+}
+
+::selection {
+    background-color: #fff;
+    color: black;
+}
+
+#btnSignUp {
+    border-color: #fff !important;
+}
+#btnSignUp:focus {
+    box-shadow: none !important;
+}

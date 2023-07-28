@@ -1,0 +1,31 @@
+
+
+
+body {
+    font-family: 'Victor Mono', monospace;
+    background-color: #171717;
+}
+
+.img img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+::selection {
+    background-color: #fff;
+    color: black;
+}
+.add-btn {
+    margin-left: -80px !important;
+}
+input:focus {
+    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.582) !important;
+    border: 2px solid #fff!important;
+}
+button {
+   background-color: black !important;
+   border: 2px solid #fff !important;
+}
+button:focus {
+    box-shadow: none !important;
+}
